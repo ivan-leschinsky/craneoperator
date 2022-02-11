@@ -23,8 +23,11 @@ When you run your own internal docker registry, it can be challenging to find ou
 ## How do I run it?
 
 ```
-docker run -d -p 80:80 parabuzzle/craneoperator:latest
+docker run -d -p 80:80 vanopiano/craneoperator:latest
 ```
+
+Available for `amd64` and `arm64`
+
 
 ## How do I configure it?
 
